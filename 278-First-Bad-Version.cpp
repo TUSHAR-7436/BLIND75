@@ -8,7 +8,7 @@ public:
         int b =n;
         
         while(a<b){
-            int c = a+(b-a)/2;
+            int c = a+((b-a))/2;
         
         if(isBadVersion(c)){
             b = c;
