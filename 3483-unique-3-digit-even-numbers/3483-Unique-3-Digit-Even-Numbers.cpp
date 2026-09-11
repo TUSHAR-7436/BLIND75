@@ -1,7 +1,7 @@
 class Solution {
 public:
     int totalNumbers(vector<int>& digits) {
-        set<int> sat;
+        set<int> st;
         int n = digits.size();
         for (int i = 0; i < n; i++) {
             if (digits[i] == 0) continue;
