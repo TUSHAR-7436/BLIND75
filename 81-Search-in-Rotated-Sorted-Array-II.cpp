@@ -6,7 +6,7 @@ public:
     
     while(a <= b){
     int m = (a + b) / 2;
-    if(numss[m] == target)
+    if(nums[m] == target)
         return true;
     if(nums[a] == nums[m] && nums[m] == nums[b]){
         a++;
